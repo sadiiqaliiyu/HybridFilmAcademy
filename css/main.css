@@ -31,7 +31,7 @@ header{
 /*features*/
 
 #feature{
-    border-bottom: 11px solid #988c00;
+   /* border-bottom: 11px solid #988c00;*/
 }
 
 #feature img{
@@ -41,14 +41,13 @@ header{
 #intro h1{
     color: white;
     padding: 1rem;
-    text-align: center;
-    margin-top: 1rem;
+    margin: 1rem 1rem 0rem 1rem;
 }
 
 #intro p{
     color: white;
     padding: 1rem;
-    margin: .5rem 1rem 3rem 1rem;
+    margin: 0 1rem 3rem 1rem;
     
 }
 
