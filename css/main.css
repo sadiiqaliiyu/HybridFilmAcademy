@@ -27,6 +27,18 @@ header{
     width: 100%;
 }
 
+#intro h1{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#intro p{
+    color: white;
+    padding: 1rem;
+    
+}
+
 section {
     font-size: 14px;
     background-color: black;
