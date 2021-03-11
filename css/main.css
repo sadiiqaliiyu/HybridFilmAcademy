@@ -10,12 +10,22 @@ body{
     line-height: 1.7;
 }
 
+#container{
+    background-color: black;
+}
+
 header{
-    background:url(../img/hyfa1.png);
+   /* background:url(../img/hyfa1.png);*/
     background-size: cover;
     border-bottom: 12px solid #988c00;
+    margin-bottom: .3rem;
+    background-color: black;
   
 
+}
+
+#main{
+    background-color: black;
 }
 
 /*features*/
@@ -32,11 +42,13 @@ header{
     color: white;
     padding: 1rem;
     text-align: center;
+    margin-top: 1rem;
 }
 
 #intro p{
     color: white;
     padding: 1rem;
+    margin: .5rem 1rem 3rem 1rem;
     
 }
 
@@ -162,7 +174,8 @@ nav ul li a{
 /* staff */
 #staffs{
     text-align: center;
-    padding: 4rem;
+    color: white;
+    /*padding: 4rem;*/
 }
 
 #staffs h2{
@@ -184,17 +197,17 @@ nav ul li a{
 .faculty-staffs img{
     width: 150px;
     height: 150px;
-    position: relative;
+    /*position: relative;
     top: -25px;
-    left: -25px;
+    left: -25px;*/
     border-radius: 100% ;
 }
 
 .staff{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    border: 14px solid #988c00;
+    /*width: 100px;
+    height: 100px;*/
+    /*border: 14px solid #988c00;*/
     padding: 2rem;
     margin: 2rem;
 }
