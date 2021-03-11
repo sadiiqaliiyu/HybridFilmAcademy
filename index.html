@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HYFA - Hybrid Film Academy</title>
+        <meta name="description" content="Hybrid Film Academy is one of the best Film academy in Abuja">
+        <meta name="keyword" content="Film School,Abuja,Academy,Movie,Nigerian Film,Nollywood">
+        <meta name="author" content="HYFA">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    </head>
+    <body>
+        <!--Page Container-->
+        <div id='container'>
+            <!--Header-->
+            <Header>
+                <!--menu button-->
+                <div id="menu" class="container">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+               
+                <!--Logo-->
+                <!--<div id="logo"><img src="img/hyfalogo.png" alt="logo"width='50px' height="50px"></div>-->
+                <!--Navigation-->
+                <nav class='nav'>
+                    <div class='logo'>HYFA</div> 
+                    <ul class="display">
+                        <li><a href="pages/about.html">Who are we</a></li>
+                        <li><a href="pages/course.html">Take a course</a></li>
+                        <li><a href="pages/workshops.html">Workshops</a></li>
+                        <li><a href="pages/scholarship.html">Scholarship</a></li>
+                        <li><a href="pages/contact.html">Contact us</a></li>
+                    </ul>
+                </nav>
+            </Header>
+            <!--Main Content-->
+            <div>
+                <!--Feature-->
+                <section id='feature'>
+                    <img name='slide' width="400" height="200">
+                </section>
+                <!--Short Course-->
+                <section id='course'>
+                    <div><h2>Courses</h2></div>
+                    <div class='Courses'>
+                        <div class="apply">
+                            <img src="img/Actingforfilm.jpg" alt="">
+                            <h2>Apply now!</h2>
+                        </div>
+                        <div class="apply">
+                            <img src="img/Actingforfilm.jpg" alt="">
+                            <h2>Apply now!</h2>
+                        </div>
+                        <div class="apply">
+                            <img src="img/Actingforfilm.jpg" alt="">
+                            <h2>Apply now!</h2>
+                        </div>
+                    </div>
+                </section>
+                <!--Staff-->
+                <section id="staffs">
+                    <div>
+                        <h2>Faculty Staff</h2>
+                    </div>
+                    <div class="faculty-staffs">
+                        <div class="staff">
+                            <img src="img/avatar.jpeg" alt="">
+                            <h3>Therapi</h3>
+                        </div>
+                        <div class="staff">
+                            <img src="img/avatar.jpeg" alt="">
+                            <h3>Therapi</h3>
+                        </div>
+                        <div class="staff">
+                            <img src="img/avatar.jpeg" alt="">
+                            <h3>Therapi</h3>
+                        </div>
+                        <div class="staff">
+                            <img src="img/avatar.jpeg" alt="">
+                            <h3>Therapi</h3>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--footer-->
+            <footer>
+                
+                <div class="icons">
+                    <span class="icon-logo">
+                        <i class = 'fab fa-facebook'></i>
+                        <i class = 'fab fa-instagram'></i>
+                        <i class = 'fab fa-twitter'></i>
+                        <i class = 'fab fa-linkedIn'></i>
+                    </span>
+                    <h2>Connect with us</h2>
+                    
+                </div>
+                <div class="link">
+                    <ul class="foot-nav">
+                        <li><a href="pages/about.html">Who are we</a></li>
+                        <li><a href="pages/course.html">Take a course</a></li>
+                        <li><a href="pages/workshops.html">Workshops</a></li>
+                        <li><a href="pages/scholarship.html">Scholarship</a></li>
+                        <li><a href="pages/contact.html">Contact us</a></li>
+                    </ul>  
+                </div>
+                <div class="copyright">
+                    <small>&copy; 2021 Hybrid Film Academy</small>
+                -
+                <a href="sitemap.html" title="Links to all the pages on this website">Sitemap</a>
+
+
+                </div>
+                
+            </footer>
+        </div>
+
+        
+    </body>
+    <script>
+        var i = 0;
+        var images = [];
+        var time = 3000; 
+
+
+        //Image list
+        images[0] = 'img/slide.jpg';
+        images[1] = 'img/slide2.jpg';
+        images[2] = 'img/slide3.jpg';
+
+        //change image function
+        function changeImg(){
+            document.slide.src = images[i];
+            if(i < images.length - 1){
+                i++;
+            } else {
+                i = 0;
+            }
+
+            setTimeout('changeImg()', time);
+        }
+
+        window.onload = changeImg
+
+
+        const menuButton = document.getElementById('menu');
+        const navBar = document.querySelector('.nav');
+
+        menuButton.addEventListener('click',transition);
+
+        function transition(e){
+            let list = navBar.firstElementChild.nextElementSibling;
+            list.classList.toggle('display');
+            this.classList.toggle('change');
+            console.log(this);
+
+        }
+    </script>
+</html>
