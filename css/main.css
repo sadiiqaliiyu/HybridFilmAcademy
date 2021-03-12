@@ -51,6 +51,7 @@ header h1{
     color: white;
     padding: 1rem;
     margin: 1rem 1rem 0rem 1rem;
+    border: 2px solid #988c00;
 }
 
 #intro p{
@@ -152,7 +153,7 @@ nav ul li a{
 
 
  h2{
-    background: #988c00;
+   /* background: #988c00;*/
     margin-bottom: 2rem;
     padding: 2rem;
 }
@@ -177,10 +178,16 @@ nav ul li a{
 
 .apply h2{
     padding: 0;
-    background-color: #988c00;
+    /*background-color: #988c00;*/
     width: 200px;
     margin: 0 auto;
+    border: 2px solid #988c00;
 }
+
+.apply h2:hover{
+    background-color: #988c00;
+}
+
 
 /* staff */
 #staffs{
@@ -190,7 +197,7 @@ nav ul li a{
 }
 
 #staffs h2{
-    background: #988c00;
+    /*background: #988c00;*/
 }
 
 #staffs h3{
