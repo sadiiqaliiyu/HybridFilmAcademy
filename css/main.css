@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding:0;
+    outline: 1px solid red;
 }
 body{
     font-family: poppins, Geneva, Tahoma, sans-serif;
@@ -22,6 +23,14 @@ header{
     background-color: black;
   
 
+}
+
+header h1{
+    position: absolute;
+    top: 60px;
+    left: 55px;
+    color: white;
+    font-size: 150%;;
 }
 
 #main{
@@ -93,12 +102,15 @@ nav ul li a{
     color: black;
     background: #988c00;
     padding: .5rem;
+    visibility: hidden;
 }
 
 #logo{
     position: relative;
-    top: 25px;
-    left: 205px;
+    bottom: 35px;
+    left: 155px;
+    width: 52px;
+    
     
 }
 
@@ -106,7 +118,7 @@ nav ul li a{
 .container {
     display: inline-block;
     cursor: pointer;
-    padding:2rem;
+    padding:.1rem 0 0 .5rem;
     right: 55px;
     top: 45px;
   }
