@@ -34,7 +34,8 @@ h1{
 }
 
 #filmstrip{
-    background-image: url(../img/filmstrip.jpg);
+    background-image: linear-gradient( hsl(55deg 91% 31%) 50%, #988c0100),
+    url(../img/filmstrip.jpg);
     background-position:left ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,5 +43,5 @@ h1{
 
 #filmstrip p{
     margin-bottom: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
 }
