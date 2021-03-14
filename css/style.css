@@ -1,3 +1,7 @@
+#page-text{
+    background: #998d07;
+}
+
 h1{
     color: #988c01;
     text-shadow: 1px 2px black;
@@ -31,7 +35,7 @@ h1{
 
 #filmstrip{
     background-image: url(../img/filmstrip.jpg);
-    background-position:left;
+    background-position:left ;
     background-size: cover;
     background-repeat: no-repeat;
 }
