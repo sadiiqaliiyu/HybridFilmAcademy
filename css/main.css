@@ -28,7 +28,7 @@ header{
 header h1{
     position: absolute;
     top: 60px;
-    left: 55px;
+    left: 73px;
     color: white;
     font-size: 150%;;
 }
@@ -110,7 +110,7 @@ nav ul li a{
 #logo{
     position: relative;
     bottom: 35px;
-    left: 155px;
+    left: 175px;
     width: 52px;
     
     

@@ -1,16 +1,30 @@
 h1{
-    color: white;
-    margin-bottom: 1rem;
+    color: #988c01;
+    text-shadow: 1px 2px black;
+   
+}
+
+.about h1{
+    border-bottom: 4px dotted #988c01;
 }
 
 .about{
-    color: #988c00;
-    margin: 3rem;
+    padding:2rem;
+    color: black;
+    background-image: linear-gradient( hsla(0deg, 0%, 100%, 0.6 ) 50%, #988c00), 
+    url(../img/slide.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about p{
+    padding: 1rem;
 }
 
 .para{
     color: white;
     margin: 1rem;
-    padding: 1rem;
+    padding: .5rem;
 }
 
