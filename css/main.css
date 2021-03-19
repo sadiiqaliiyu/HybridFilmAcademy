@@ -242,13 +242,15 @@ img{
 
     .hamburger{
         position: absolute;
-        top: 21%;
+        top: 7px;
         right: 5%;
     }
 
     .navbar{
         flex-direction: column;
         align-items: flex-start;
+        position: relative;
+
     }
 
     .navbar-links ul{
