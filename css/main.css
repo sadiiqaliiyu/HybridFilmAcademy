@@ -209,8 +209,13 @@ footer{
 .link .foot-nav{
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background: black;
+    font-size: 50%;
+}
+
+.link .foot-nav li{
+    padding: .5rem;
 }
 
 .link .foot-nav li a{
