@@ -1,5 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
 #page-text{
-    background: #998d07;
+    background: #fff;
+}
+
+
+
+
+
+.caption{
+    /*width: 430px;*/
+    margin: 0 auto;
+}
+ #page-text img{
+    max-width: 100%;
+    padding: 0 2rem;
 }
 
 h1{
@@ -15,7 +32,7 @@ h1{
 .about{
     padding:2rem;
     color: black;
-    background-image: linear-gradient( hsla(0deg, 0%, 100%, 0.6 ) 50%, #988c00), 
+    background-image: linear-gradient( hsla(0deg, 0%, 100%, 0.6 ) 50%, white), 
     url(../img/slide.jpg) ;
     background-position: center center;
     background-size: cover;
@@ -27,14 +44,14 @@ h1{
 }
 
 .para{
-    color: white;
+    color: black;
     margin: 1rem;
     padding: .5rem;
 
 }
 
 #filmstrip{
-    background-image: linear-gradient( hsl(55deg 91% 31%) 50%, #988c0100),
+    background-image: linear-gradient( hsl(0 0% 100%) 50%, #988c0100),
     url(../img/filmstrip.jpg);
     background-position:left ;
     background-size: cover;
@@ -44,4 +61,85 @@ h1{
 #filmstrip p{
     margin-bottom: 0;
     padding-bottom: 5rem;
+}
+
+@media only screen and (min-device-width: 960px){
+
+    header h1{
+        font-size: 200%;
+    }
+
+    nav{
+        
+        background: #998d07;
+        justify-content: flex-end;
+       
+    }
+
+    
+
+    
+
+
+    #menu{
+        visibility: hidden;
+    }
+
+    .display{
+        display: flex;
+        margin: 0;
+        background: none;
+        margin-right: 3rem;
+    }
+
+    .display li{
+        margin: .5rem;
+        font-size: 150%;
+        
+    }
+
+    .display li a{
+        color: black;
+    }
+
+    .about{
+        padding-top: 5rem;
+    }
+
+    .logo{
+        visibility: visible;
+        
+    }
+
+    .logo a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .about-page{
+        display: flex;
+    }
+
+    .div1, .div2{
+        max-width: 50%;
+    }
+
+
+    .courses{
+        display: flex;
+        
+        
+    }
+
+   
+
+    #course img{
+        width: 290px;
+        height: 290px;
+    }
+
+
+    .staff{
+        width: 250px;
+    }
 }
