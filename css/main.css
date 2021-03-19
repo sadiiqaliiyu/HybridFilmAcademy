@@ -121,6 +121,7 @@ img{
     border-radius: 5px;
     color: white;
     cursor: pointer;
+    font-weight: lighter;
 }
 
 .apply img{
@@ -219,6 +220,8 @@ img{
 
 
 
+
+
 @media screen and (max-width: 768px){
 
     .logo{
@@ -265,6 +268,10 @@ img{
     
     .navbar-links.active{
         display: flex;
+    }
+
+    .ltd{
+        display: none;
     }
 
 }
