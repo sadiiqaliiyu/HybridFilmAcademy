@@ -202,6 +202,10 @@ img{
 
 /*footer*/
 
+footer{
+    background: linear-gradient(45deg, #655e06, transparent);
+}
+
 .link .foot-nav{
     list-style: none;
     display: flex;
@@ -224,9 +228,34 @@ img{
     color: #988c00;
 }
 
+/*rate card*/
 
+#rating{
+    padding: 2rem;
+}
 
+#rating h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
 
+i.fas.fa-star {
+    color: #ffc107;
+}
+
+div.rate-card{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.ratings{
+    padding-bottom: 3rem;
+}
+
+div.comment{
+    padding: 2rem 0;
+}
 
 
 
