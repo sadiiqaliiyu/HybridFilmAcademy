@@ -12,6 +12,12 @@ body{
 }
 
 
+div.active{
+
+    color: black;
+    background-color: #ccc;
+}
+
 header{
    
     line-height: 1.2;
@@ -54,6 +60,11 @@ header{
 
 }
 
+.brand-title{
+    font-size: 1.5rem;
+    
+}
+
 .brand-title a{
     text-decoration: none;
     color: black;
@@ -71,10 +82,7 @@ header{
     z-index: 9;
 }
 
-.brand-title{
-    font-size: 1.5rem;
-    margin: .5rem;
-}
+
 
 .navbar-links ul{
     display: flex;
@@ -95,11 +103,12 @@ header{
 }
 
 .navbar-links li:hover{
+
 }
 
 .navbar-links li a:hover{
     color: black;
-    border-bottom: 2px solid black;
+    border-bottom: px solid black;
     background-color: #ccc;
 
 
@@ -334,7 +343,7 @@ div.comment{
 
     .hamburger{
         position: absolute;
-        top: 7px;
+        top: 0px;
         right: 5%;
     }
 
