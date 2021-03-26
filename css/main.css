@@ -28,6 +28,13 @@ header{
    
 }
 
+.mobile{
+    display: none;
+    padding: .5rem;
+    background: b;
+}
+
+
 .quickLink{
     display: flex;
     flex-direction: column;
@@ -80,6 +87,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
 }
 
 .heading h1{
@@ -143,7 +151,7 @@ header{
 
 .navbar-links li a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 0 .7rem;
     display: block;
     font-weight: lighter;
@@ -388,6 +396,45 @@ div.comment{
     #smalllogo{
         max-width: 300px;
         display: block;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .heading{
+        padding: 2rem;
+        margin: 0;
+    }
+
+    .mobile{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;  
+        justify-content: center;
+    }
+
+    .applys{
+        position: inherit;
+        padding: .3rem 1rem;
+    }
+
+    .info{
+        position: inherit;
+        color: white;
+        background: black;
+        padding: .3rem 1rem;
+        text-transform: uppercase;
+        border: 1px solid;
+    }
+
+    .fa-search{
+        position: inherit;
+        color: white;
+        background: black;
+        padding: .4rem;
+        border: 1.3px solid white;
+        border-radius: 0;
     }
 
     .logo{
