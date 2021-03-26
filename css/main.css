@@ -28,6 +28,49 @@ header{
    
 }
 
+.quickLink{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+    position: relative;
+    width: 200px;
+    height: 90px;
+    right: 70px;
+
+}
+
+.applys{
+    color: black;
+    border: 1px solid white;
+    padding: .3rem;
+    position: absolute;
+    top: 0;
+    background: #988c00;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.more{
+    border: 1px solid white;
+    padding: .2rem;
+    position: absolute;
+    top: 29px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+.fa-search{
+    border: 1px solid white;
+    padding: .2rem;
+    position: absolute;
+    top: 70px;
+    color: black;
+    background: white;
+    border-radius: 2px;
+}
+
+
 
 
 .heading{
