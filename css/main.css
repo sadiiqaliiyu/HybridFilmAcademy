@@ -151,15 +151,13 @@ header{
 
 .navbar-links li a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 0 .7rem;
     display: block;
     font-weight: lighter;
 }
 
-.navbar-links li:hover{
 
-}
 
 .navbar-links li a:hover{
     color: black;
