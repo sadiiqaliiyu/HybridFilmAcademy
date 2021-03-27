@@ -45,10 +45,7 @@
     border-radius: 2px;
 }
 
-.brand-title {
-    background-color: white;
-   
-}
+
 
 .brand-title a{
     color: #988c00;
@@ -238,83 +235,59 @@ li a.active{
 
 
 
-@media only screen and (min-device-width: 960px){
+/* course page css*/
 
-    header h1{
-        font-size: 200%;
+h3{
+    padding: .47rem .9rem;
+    text-align: center;
+    color: white;
+}
+
+.programmes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.program{
+    margin-bottom: 4rem;
+}
+
+.box{
+    max-width: 250px;
+    height: 187.5px;
+}
+
+#apply h1{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+#apply h1:hover{
+    background-color: #988c00;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px){
+    /*About page design*/
+
+    .cine{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-
-    nav{
-        
-        background: #998d07;
-        justify-content: flex-end;
-       
-    }
-
     
-
-    
-
-
-    #menu{
-        visibility: hidden;
+    .cine-text{
+        max-width: 300px;
+        padding: 0 .5rem;
     }
-
-    .display{
-        display: flex;
-        margin: 0;
-        background: none;
-        margin-right: 3rem;
-    }
-
-    .display li{
-        margin: .5rem;
-        font-size: 150%;
-        
-    }
-
-    .display li a{
-        color: black;
-    }
-
-    .about{
-        padding-top: 5rem;
-    }
-
-    .logo{
-        visibility: visible;
-        
-    }
-
-    .logo a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .about-page{
-        display: flex;
-    }
-
-    .div1, .div2{
-        max-width: 50%;
-    }
-
-
-    .courses{
-        display: flex;
-        
-        
-    }
-
-   
-
-    #course img{
-        width: 290px;
-        height: 290px;
-    }
-
-
-    .staff{
-        width: 250px;
+    .cine-img{
+        max-width: 350px;
+        padding: .2rem;
     }
 }

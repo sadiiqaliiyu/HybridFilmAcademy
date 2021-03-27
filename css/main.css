@@ -417,6 +417,7 @@ div.comment{
     .applys{
         position: inherit;
         padding: .3rem 1rem;
+        font-size: 20%;
     }
 
     .info{
@@ -426,15 +427,21 @@ div.comment{
         padding: .3rem 1rem;
         text-transform: uppercase;
         border: 1px solid;
+        font-size: 20%;
     }
 
     .fa-search{
-        position: inherit;
+        
         color: white;
         background: black;
         padding: .4rem;
         border: 1.3px solid white;
         border-radius: 0;
+        font-size: 1%;
+        height: 22px;
+        padding-left: .5rem;
+        right: 2px;
+        top: 2px;
     }
 
     .logo{
