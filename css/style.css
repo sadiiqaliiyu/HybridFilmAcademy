@@ -58,19 +58,21 @@
 #page-text{
     max-width: 960px;
     margin: 0 auto;
+    background: #fff;
 }
 
 .card{
     max-width: 800px;
     margin: 0 auto;
     position: relative;
-    top: -48px;}
+    top: -55px;}
 
 .card .main-header {
     background: #988c00;
 }
 
 .card h1{
+    padding: .2rem 2rem;
     color: white;
     text-align: left;
 
@@ -86,10 +88,6 @@
 
 .iconLink a{
     display: inline-block;
-    width: 70px;
-    height: 70px;
-    border: 6px solid black;
-    border-radius: 50px;
     color: black;
 }
 
@@ -97,12 +95,16 @@
     padding: 25px 0 25px 1px;;
 }
 
-.fa-university{
-    font-size: 2.5rem;
-        /* margin: 0 0 2rem 0; */
-        position: relative;
-        bottom: 1.2rem;
+.ring{
+    border: 6px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: white;
+}
 
+.ring:hover{
+    border: 6px solid #988c00;
 }
 
 .circle{
@@ -118,18 +120,41 @@ p{
 .history{
     max-width: 840px;
     margin: 0 auto;
+    position: relative;
+    top: -22px;
 }
 
 .history p{
     padding: 0 1rem 1rem 1rem;
 }
 
-.history img{
+
+
+.cine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cine-text{
+    max-width: 440px;
+    padding: 0 .5rem;
+}
+.cine-img{
+    max-width: 400px;
+    padding: .2rem;
+}
+
+.cine-img img{
+    max-width: 100%;
     padding: 0 1rem;
 }
 
 
-
+#boardroom{
+    max-width: 100%;
+    padding: 0;
+}
 
 
 
@@ -145,9 +170,6 @@ li a.active{
 
 }
 
-#page-text{
-    background: #fff;
-}
 
 
 .div2 p{
@@ -160,9 +182,9 @@ li a.active{
     /*width: 430px;*/
     margin: 0 auto;
 }
- #page-text img{
+ img{
     max-width: 100%;
-    padding: 0 2rem;
+    /*padding: 0 2rem;*/
 }
 
 .about-page{
